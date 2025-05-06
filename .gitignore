@@ -1,0 +1,10 @@
+# Ignore build artifacts and logs
+*.o
+*.out
+*.log
+*.tmp
+node_modules/
+build/
+dist/
+
+.dockerignore
