@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Server Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        h1 { color: #2c3e50; }
+        .server-info { background: #f8f9fa; padding: 20px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Web Server Working!</h1>
+    <div class="server-info">
+        <p>This page is served by your C++ web server</p>
+        <p>Current time: <span id="time"></span></p>
+    </div>
+    <script>
+        document.getElementById('time').textContent = new Date();
+    </script>
+</body>
+</html>
