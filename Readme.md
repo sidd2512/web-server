@@ -10,6 +10,12 @@ A multi-threaded web server written in modern C++ featuring:
 
 ---
 
+### 🔄 System Flow Chart
+
+![System Architecture Flow Chart](diagram.png)
+
+---
+
 ## 📦 Project Structure
 
 ```
